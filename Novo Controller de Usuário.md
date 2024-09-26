@@ -1,4 +1,4 @@
-
+	
 Vamos construir o raciocínio.
 
 Considerações:
@@ -11,7 +11,7 @@ Para adicionar um usuário no sistema, precisamos:
 1. Criar o objeto correspondente ao tipo do usuário
 2. Armazenar ele no banco de dados
 
-### CriadorDeUsuarioFactory
+### UsuarioFactory
 
 A classe `UsuarioFactory` implementa o padrão de projeto **Factory Method**. Sua principal função é fornecer uma maneira centralizada e simplificada de instanciar diferentes criadores de usuários com base no tipo de usuário solicitado.
 
@@ -47,7 +47,7 @@ class UsuarioFactory {
 UsuarioController ..> UsuarioFactory
 
 class UsuarioRepository {
-  + salvar(usuario: Usuario)
+  + adicionar(usuario: Usuario)
 }
 
 UsuarioController ..> UsuarioRepository
@@ -64,7 +64,7 @@ class UsuarioController {
 	+ adicionar_usuario(tipo: String, dados: dict) -> void:
 		usuario = UsuarioFactory.criar_usuario(tipo)
 		# Salvar usuário em um repositório
-		UsuarioRepository.salvar(usuario)
+		UsuarioRepository.adicionar(usuario)
 }
 ```
 
@@ -87,7 +87,7 @@ class UsuarioController {
 }
 
 class UsuarioRepository {
-  + salvar(usuario: Usuario)
+  + adicionar(usuario: Usuario)
   + editar(id: int, dados: dict)
 }
 
@@ -115,7 +115,7 @@ class UsuarioController {
 }
 
 class UsuarioRepository {
-  + salvar(usuario: Usuario)
+  + adicionar(usuario: Usuario)
   + editar(id: int, dados: dict)
   + excluir(id: int)
 }

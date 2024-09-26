@@ -4,38 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e954e21cd868dba0",
+        "id": "6f7506794317830a",
         "type": "tabs",
-        "dimension": 55.471887550200805,
         "children": [
           {
-            "id": "4850cc2a8f4e5f30",
+            "id": "9589ee7d4f8522e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Controller.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8af47d0ae3cb68be",
-        "type": "tabs",
-        "dimension": 44.528112449799195,
-        "children": [
-          {
-            "id": "a586f1f71a7f9662",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Usuários.md",
-                "mode": "source",
-                "source": false
+                "file": "Views/Tela de Gerenciar Usuários.canvas",
+                "viewState": {
+                  "x": 104.40150539558003,
+                  "y": 12.029563029150665,
+                  "zoom": -0.36828373057910196
+                }
               }
             }
           }
@@ -89,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "278c8278fd12f0a8",
@@ -105,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Controller.md",
+                "file": "Views/Tela de Gerenciar Usuários.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Controller.md",
+                "file": "Views/Tela de Gerenciar Usuários.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Controller.md"
+                "file": "Views/Tela de Gerenciar Usuários.canvas"
               }
             }
           }
@@ -166,15 +150,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "4850cc2a8f4e5f30",
+  "active": "9589ee7d4f8522e0",
   "lastOpenFiles": [
-    "Novo Controller de Usuário.md",
-    "Sem título.canvas",
     "Views/Fluxo.md",
-    "Views/VIEW - Adicionar Usuário.md",
+    "Views/Tela de Gerenciar Usuários.canvas",
     "Fluxo.canvas",
     "Controller.md",
     "Usuários.md",
+    "Views/VIEW - Adicionar Usuário.md",
+    "Novo Controller de Usuário.md",
     "Views",
     "Usuários.pdf",
     "Welcome.md"

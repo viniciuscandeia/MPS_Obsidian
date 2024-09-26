@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"58a1e6ed8a4ff977","type":"group","x":-370,"y":-229,"width":739,"height":206,"label":"Tela de Listar"},
+		{"id":"f7d25846f0db1298","type":"text","text":"Tela de Visualizar Usuário\n\n[informações]\n\n- Editar\n- Excluir\n- Voltar","x":680,"y":-80,"width":280,"height":200},
+		{"id":"db11eb7781c2c803","type":"text","text":"GER - Tela de Listar\n\n- Listar Usuários\n- Voltar","x":16,"y":-209,"width":333,"height":129},
+		{"id":"6011dfb3673ea588","type":"text","text":"ADM - Tela de Listar\n\n- Listar Administradores\n- FIltrar por loja\n- Voltar","x":-350,"y":-209,"width":333,"height":166},
+		{"id":"f7ca0a27dee9cd97","type":"text","text":"Tela de Adicionar Usuário","x":-778,"y":-209,"width":260,"height":60},
+		{"id":"71be5ec181c0f88e","type":"text","text":"Tela de Pesquisar Usuário","x":440,"y":-209,"width":283,"height":60},
+		{"id":"b2bf4acd987d4de5","type":"text","text":"Tela de Gerenciar Usuários\n\n- Adicionar Usuário\n- Administrar Usuário\n- Listar Usuários\n- Voltar","x":-140,"y":-520,"width":285,"height":200},
+		{"id":"286521441a765631","type":"text","text":"Tela de Listar Administradores\n\n[Listagem dos Administradores]\n\n- Visualizar administrador\n- Voltar","x":-341,"y":60,"width":316,"height":180},
+		{"id":"484dc53232543d7f","type":"text","text":"Tela de Listar Usuários\n\n[Listagem dos Usuários]\n\n- Visualizar usuário\n- Voltar","x":43,"y":285,"width":280,"height":180},
+		{"id":"7ceedc0de5bb11d9","type":"text","text":"Tela de Listar Lojas\n\n[Listagem dos Lojas]\n\n- Visualizar Loja\n- Voltar","x":-798,"y":335,"width":280,"height":180},
+		{"id":"521c1488b61c0d26","type":"text","text":"Tela de Filtrar por Loja\n\n- Listar Lojas\n- Pesquisar Loja\n- Voltar","x":-778,"y":115,"width":260,"height":170}
+	],
+	"edges":[
+		{"id":"b6b774f4ed1abde6","fromNode":"b2bf4acd987d4de5","fromSide":"left","toNode":"f7ca0a27dee9cd97","toSide":"top","color":"5"},
+		{"id":"ff387ed37e0da57a","fromNode":"71be5ec181c0f88e","fromSide":"bottom","toNode":"f7d25846f0db1298","toSide":"left","color":"3"},
+		{"id":"b66a92ae63b7eead","fromNode":"b2bf4acd987d4de5","fromSide":"right","toNode":"71be5ec181c0f88e","toSide":"top","color":"5"},
+		{"id":"efa23c2d550d6298","fromNode":"f7d25846f0db1298","fromSide":"top","toNode":"b2bf4acd987d4de5","toSide":"right","color":"1"},
+		{"id":"32e43fb8964dd3d8","fromNode":"58a1e6ed8a4ff977","fromSide":"left","toNode":"b2bf4acd987d4de5","toSide":"left","color":"1"},
+		{"id":"23a00b018ef35d8f","fromNode":"b2bf4acd987d4de5","fromSide":"bottom","toNode":"58a1e6ed8a4ff977","toSide":"top","color":"5"},
+		{"id":"72b555aba05f4663","fromNode":"6011dfb3673ea588","fromSide":"bottom","toNode":"286521441a765631","toSide":"top","color":"2"},
+		{"id":"d177e5c8b7e3eb09","fromNode":"6011dfb3673ea588","fromSide":"bottom","toNode":"521c1488b61c0d26","toSide":"top","color":"2"},
+		{"id":"1eeb808a7148053c","fromNode":"286521441a765631","fromSide":"right","toNode":"f7d25846f0db1298","toSide":"left","color":"4"},
+		{"id":"68616d9b63958ec0","fromNode":"286521441a765631","fromSide":"left","toNode":"58a1e6ed8a4ff977","toSide":"left","color":"1"},
+		{"id":"3102e0a96bf8e640","fromNode":"484dc53232543d7f","fromSide":"right","toNode":"f7d25846f0db1298","toSide":"left","color":"4"},
+		{"id":"11d761d9efa4859b","fromNode":"484dc53232543d7f","fromSide":"right","toNode":"58a1e6ed8a4ff977","toSide":"right","color":"1"},
+		{"id":"dd2712bb7d2ef96c","fromNode":"db11eb7781c2c803","fromSide":"bottom","toNode":"484dc53232543d7f","toSide":"top","color":"2"},
+		{"id":"ebac164e6051c4ab","fromNode":"7ceedc0de5bb11d9","fromSide":"right","toNode":"484dc53232543d7f","toSide":"left","color":"3"},
+		{"id":"fc0b192eea7f38d4","fromNode":"521c1488b61c0d26","fromSide":"left","toNode":"6011dfb3673ea588","toSide":"left","color":"1"},
+		{"id":"2335a608ff4521af","fromNode":"521c1488b61c0d26","fromSide":"bottom","toNode":"7ceedc0de5bb11d9","toSide":"top","color":"4"},
+		{"id":"379cdb1607968085","fromNode":"521c1488b61c0d26","fromSide":"right","toNode":"484dc53232543d7f","toSide":"left","color":"6"},
+		{"id":"c6f5d3b9a8fe29f7","fromNode":"7ceedc0de5bb11d9","fromSide":"left","toNode":"521c1488b61c0d26","toSide":"left","color":"1"}
+	]
+}
