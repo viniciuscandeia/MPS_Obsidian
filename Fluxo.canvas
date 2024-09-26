@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"ed13e4ae0357762a","x":-260,"y":-120,"width":236,"height":140,"type":"text","text":"Tela de Login\n\n- nome_usuario\n- senha"},
+		{"id":"a43a46d3703365e2","x":420,"y":120,"width":260,"height":120,"type":"text","text":"Tela Inicial de Vendedor\n\n- Realizar Venda\n- Logout"},
+		{"id":"b91aed5a9a0e4182","x":-840,"y":120,"width":280,"height":120,"type":"text","text":"Tela Inicial de Administrador\n\n- Gerenciar Usuários\n- Logout"},
+		{"id":"a2ba54e4a136336a","x":-335,"y":120,"width":255,"height":180,"type":"text","text":"Tela Inicial de Gerente\n\n- Gerenciar Usuários\n- Gerenciar Produtos\n- Realizar Venda\n- Logout"},
+		{"id":"a91bb57525d6ddc9","x":-1420,"y":500,"width":280,"height":220,"type":"text","text":"Tela de Gerenciar Usuários\n\n- Adicionar Usuário\n- Editar Usuário\n- Excluir Usuário\n- Listar Usuários\n- Voltar"}
+	],
+	"edges":[
+		{"id":"3a5913d4134433c3","fromNode":"ed13e4ae0357762a","fromSide":"bottom","toNode":"b91aed5a9a0e4182","toSide":"top"},
+		{"id":"662a75e72ad22467","fromNode":"ed13e4ae0357762a","fromSide":"bottom","toNode":"a2ba54e4a136336a","toSide":"top"},
+		{"id":"ae4d88b9e9307fbc","fromNode":"ed13e4ae0357762a","fromSide":"bottom","toNode":"a43a46d3703365e2","toSide":"top"},
+		{"id":"4289f4049070fcc4","fromNode":"b91aed5a9a0e4182","fromSide":"right","toNode":"ed13e4ae0357762a","toSide":"left"},
+		{"id":"28e346a2fb909ef8","fromNode":"a2ba54e4a136336a","fromSide":"right","toNode":"ed13e4ae0357762a","toSide":"right"},
+		{"id":"76f0dcc832a1cfc7","fromNode":"a43a46d3703365e2","fromSide":"left","toNode":"ed13e4ae0357762a","toSide":"right"},
+		{"id":"20d0c975eb972852","fromNode":"b91aed5a9a0e4182","fromSide":"bottom","toNode":"a91bb57525d6ddc9","toSide":"top"},
+		{"id":"88256f6bf63bbc64","fromNode":"a91bb57525d6ddc9","fromSide":"left","toNode":"b91aed5a9a0e4182","toSide":"left"}
+	]
+}

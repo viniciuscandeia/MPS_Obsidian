@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "190bf8d3375770bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "e954e21cd868dba0",
+        "type": "tabs",
+        "dimension": 55.471887550200805,
+        "children": [
+          {
+            "id": "4850cc2a8f4e5f30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Controller.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8af47d0ae3cb68be",
+        "type": "tabs",
+        "dimension": 44.528112449799195,
+        "children": [
+          {
+            "id": "a586f1f71a7f9662",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Usuários.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "79f378b1d195339d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba5aa752894a671a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac28623628108296",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4e05505753f57fb9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2800886a544ab85e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "278c8278fd12f0a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "be1ca28b9941d009",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb13673da1453b57",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Controller.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8f50c64d077af5ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Controller.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9f55b4b432d09e26",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "15853d4b7981e0e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Controller.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "4850cc2a8f4e5f30",
+  "lastOpenFiles": [
+    "Novo Controller de Usuário.md",
+    "Sem título.canvas",
+    "Views/Fluxo.md",
+    "Views/VIEW - Adicionar Usuário.md",
+    "Fluxo.canvas",
+    "Controller.md",
+    "Usuários.md",
+    "Views",
+    "Usuários.pdf",
+    "Welcome.md"
+  ]
+}
