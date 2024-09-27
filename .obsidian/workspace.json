@@ -8,16 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9589ee7d4f8522e0",
+            "id": "0dfd82277397656e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Views/Tela de Gerenciar Usuários.canvas",
+                "file": "Etapas.canvas",
                 "viewState": {
-                  "x": 104.40150539558003,
-                  "y": 12.029563029150665,
-                  "zoom": -0.36828373057910196
+                  "x": -517.623548536557,
+                  "y": 615.9450601677813,
+                  "zoom": -1.6606387100831175
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5f420c7ad09fbae1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a29137e65f39b3a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Views/Fluxo.canvas",
+                "viewState": {
+                  "x": 480.42710003825187,
+                  "y": 186.9943078684668,
+                  "zoom": -0.4387267218087136
                 }
               }
             }
@@ -72,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "278c8278fd12f0a8",
@@ -89,11 +109,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Views/Tela de Gerenciar Usuários.canvas",
-                "collapseAll": false,
+                "file": "Etapas.canvas",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -106,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Views/Tela de Gerenciar Usuários.canvas",
+                "file": "Etapas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,11 +149,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Views/Tela de Gerenciar Usuários.canvas"
+                "file": "Etapas.canvas"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -150,15 +171,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9589ee7d4f8522e0",
+  "active": "0dfd82277397656e",
   "lastOpenFiles": [
-    "Views/Fluxo.md",
+    "Views/Fluxo.canvas",
+    "Etapas.canvas",
     "Views/Tela de Gerenciar Usuários.canvas",
-    "Fluxo.canvas",
-    "Controller.md",
-    "Usuários.md",
-    "Views/VIEW - Adicionar Usuário.md",
+    "Views/VIEW - 01 - Tela de Login.md",
     "Novo Controller de Usuário.md",
+    "Views/VIEW - 02 - Tela Inicial.md",
+    "Fluxo.canvas",
+    "Views/VIEW - Adicionar Usuário.md",
+    "Usuários.md",
+    "Novo Controller de Usuário - Antes.md",
+    "Views/Fluxo.md",
+    "Controller.md",
     "Views",
     "Usuários.pdf",
     "Welcome.md"

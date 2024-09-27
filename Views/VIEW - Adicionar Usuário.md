@@ -1,33 +1,33 @@
 ## Uso do Template Method
 
-Podemos criar uma classe base abstrata que define o fluxo geral para adicionar qualquer tipo de usuário. As subclasses concretas (para Administrador, Gerente, etc.) irão implementar as partes específicas de coleta de dados.
+Podemos criar uma classe base que define o fluxo geral para adicionar qualquer tipo de usuário. As subclasses (para Administrador, Gerente, etc.) irão implementar as partes específicas de seus usuários.
 
 ```plantuml
 
 @startuml
 !theme carbon-gray
 
-abstract class AdicionarUsuarioView {
-    +adicionar_usuario_view() : Dict
-    +adicionar_sucesso(usuario: Dict) : void
-    +adicionar_falha(error: str) : void
-    #coletar_dados() : Dict
-    #tipo_usuario() : str
+class AdicionarUsuarioView {
+    + adicionar_usuario_view() : Dict
+    + adicionar_sucesso(usuario: Dict) : void
+    + adicionar_falha(error: str) : void
+    - coletar_dados() : Dict
+    - tipo_usuario() : str
 }
 
 class AdicionarAdministradorView {
-    +coletar_dados() : Dict
-    +tipo_usuario() : str
+    - coletar_dados() : Dict
+    - tipo_usuario() : str
 }
 
 class AdicionarGerenteView {
-    +coletar_dados() : Dict
-    +tipo_usuario() : str
+    - coletar_dados() : Dict
+    - tipo_usuario() : str
 }
 
 class AdicionarVendedorView {
-    +coletar_dados() : Dict
-    +tipo_usuario() : str
+    - coletar_dados() : Dict
+    - tipo_usuario() : str
 }
 
 AdicionarUsuarioView <|-- AdicionarAdministradorView
@@ -37,9 +37,6 @@ AdicionarUsuarioView <|-- AdicionarVendedorView
 @enduml
 
 ```
-
-^e78c64
-
 ### Explicação:
 
 - **Classe base `AdicionarUsuarioView`**: Define o fluxo geral para adicionar usuários e contém métodos como `adicionar_usuario_view`, `adicionar_sucesso` e `adicionar_falha`. Também define dois métodos abstratos (`coletar_dados` e `tipo_usuario`) que devem ser implementados pelas subclasses.

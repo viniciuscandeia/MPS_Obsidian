@@ -1,4 +1,4 @@
-	
+
 Vamos construir o raciocínio.
 
 Considerações:
@@ -16,7 +16,7 @@ Para adicionar um usuário no sistema, precisamos:
 A classe `UsuarioFactory` implementa o padrão de projeto **Factory Method**. Sua principal função é fornecer uma maneira centralizada e simplificada de instanciar diferentes criadores de usuários com base no tipo de usuário solicitado.
 
 ```Python
-class UsuarioFactory {
+class FabricaDeUsuario {
     # Método responsável por retornar o criador adequado com base no tipo fornecido
     + criar_usuario(tipo: String, dados: dict) -> Usuario:
         if tipo == "administrador":
@@ -41,10 +41,10 @@ class UsuarioController {
   + adicionar_usuario(tipo: String, dados: dict) : void
 }
 
-class UsuarioFactory {
+class FabricaDeUsuario {
   + criar_usuario(tipo: String, dados: dict) : Usuario
 }
-UsuarioController ..> UsuarioFactory
+UsuarioController ..> FabricaDeUsuario
 
 class UsuarioRepository {
   + adicionar(usuario: Usuario)

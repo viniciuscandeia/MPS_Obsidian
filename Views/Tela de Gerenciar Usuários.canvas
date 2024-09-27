@@ -10,7 +10,8 @@
 		{"id":"286521441a765631","type":"text","text":"Tela de Listar Administradores\n\n[Listagem dos Administradores]\n\n- Visualizar administrador\n- Voltar","x":-341,"y":60,"width":316,"height":180},
 		{"id":"484dc53232543d7f","type":"text","text":"Tela de Listar Usuários\n\n[Listagem dos Usuários]\n\n- Visualizar usuário\n- Voltar","x":43,"y":285,"width":280,"height":180},
 		{"id":"7ceedc0de5bb11d9","type":"text","text":"Tela de Listar Lojas\n\n[Listagem dos Lojas]\n\n- Visualizar Loja\n- Voltar","x":-798,"y":335,"width":280,"height":180},
-		{"id":"521c1488b61c0d26","type":"text","text":"Tela de Filtrar por Loja\n\n- Listar Lojas\n- Pesquisar Loja\n- Voltar","x":-778,"y":115,"width":260,"height":170}
+		{"id":"521c1488b61c0d26","type":"text","text":"Tela de Filtrar por Loja\n\n- Listar Lojas\n- Pesquisar Loja\n- Voltar","x":-778,"y":115,"width":260,"height":170},
+		{"id":"91efbd3ee21807e8","x":-978,"y":-480,"width":200,"height":60,"color":"5","type":"text","text":"ABSALOM"}
 	],
 	"edges":[
 		{"id":"b6b774f4ed1abde6","fromNode":"b2bf4acd987d4de5","fromSide":"left","toNode":"f7ca0a27dee9cd97","toSide":"top","color":"5"},
