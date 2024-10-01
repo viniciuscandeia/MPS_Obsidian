@@ -4,46 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "6f7506794317830a",
+        "id": "8d765204a78eb8f2",
         "type": "tabs",
         "children": [
           {
             "id": "0dfd82277397656e",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Novo Controller de Usuário.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4a247feeb0e2522",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
                 "file": "Etapas.canvas",
                 "viewState": {
-                  "x": -517.623548536557,
-                  "y": 615.9450601677813,
-                  "zoom": -1.6606387100831175
+                  "x": -610,
+                  "y": 439.99999999999994,
+                  "zoom": -1.5471071369781506
                 }
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "5f420c7ad09fbae1",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "6a29137e65f39b3a",
+            "id": "fe2ebbd81d989430",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Repositórios/Considerações.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70d84e11c6e79e58",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Views/Fluxo.canvas",
                 "viewState": {
-                  "x": 480.42710003825187,
-                  "y": 186.9943078684668,
-                  "zoom": -0.4387267218087136
+                  "x": -131,
+                  "y": -241.5,
+                  "zoom": -1.3086332810375312
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Etapas.canvas",
+                "file": "Repositórios/Considerações.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Etapas.canvas",
+                "file": "Repositórios/Considerações.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Etapas.canvas"
+                "file": "Repositórios/Considerações.md"
               }
             }
           }
@@ -171,19 +190,24 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "0dfd82277397656e",
+  "active": "fe2ebbd81d989430",
   "lastOpenFiles": [
-    "Views/Fluxo.canvas",
-    "Etapas.canvas",
-    "Views/Tela de Gerenciar Usuários.canvas",
-    "Views/VIEW - 01 - Tela de Login.md",
+    "Repositórios/Repositório de Usuário.md",
+    "Lojas.md",
+    "Repositórios/Considerações.md",
     "Novo Controller de Usuário.md",
-    "Views/VIEW - 02 - Tela Inicial.md",
-    "Fluxo.canvas",
+    "Etapas.canvas",
+    "Views/Fluxo.canvas",
     "Views/VIEW - Adicionar Usuário.md",
-    "Usuários.md",
-    "Novo Controller de Usuário - Antes.md",
+    "Views/VIEW - 01 - Tela de Login.md",
+    "Views/VIEW - 02 - Tela Inicial.md",
+    "Views/Tela de Gerenciar Usuários.canvas",
+    "Views/VIEW - 03 - Tela de Gerenciar Usuários.md",
     "Views/Fluxo.md",
+    "Repositórios",
+    "Usuários.md",
+    "Fluxo.canvas",
+    "Novo Controller de Usuário - Antes.md",
     "Controller.md",
     "Views",
     "Usuários.pdf",

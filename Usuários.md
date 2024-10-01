@@ -56,7 +56,7 @@ class Vendedor {
 
 Usuario <|.. Administrador
 Usuario <|.. Vendedor
-Vendedor <|.. Gerente
+Vendedor <-- Gerente
 
 @enduml
 
