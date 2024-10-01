@@ -13,29 +13,44 @@ O software deve permitir duas formas para armazenar os objetos:
 
 ### Memória RAM
 
-#### Usuários
+#### ID
 
-- Um hash map para administradores e outro para os outros?
+Podemos utilizar um dicionário (hash map) mapeando o `identificador` do Objeto ao próprio objeto.
+
+O `id` de um Objeto representa apenas a quantidade de elementos presentes do dicionário incrementado de 1.
+#### Separação dos objetos
+
+É preciso lembrar que todos os objetos (usuários, lojas, produtos) estarão na RAM. **Como podemos separar eles de maneira eficiente?**
+
+- Um dicionário para cada grupo de objetos (usuários, lojas, produtos)? 
 
 ```Python
-repositorio_adm: dict = {'Username1': adm_1, 'Username2': adm_2}
-repositorio_usuarios: dict = {'CNPJ1': {'Username1': Gerente1, 'Username2': Gerente2}, 
-							  'CNPJ2': {'Username3': Gerente3, 'Username4': Vendedor4}}
+repositorio_usuarios: dict = {'ID_1': usuario_1, 'ID_2': usuario_2}
+repositorio_lojas: dict = {'ID_1': loja_1, 'ID_2': loja_2}
+repositorio_produtos: dict = {'ID_1': produto_1, 'ID_2': produto_2}
 ```
-#### Lojas
 
-- Um hash map associando o `id` ao Objeto `Loja`.
+- Um dicionário único para todos os objetos? 
 
 ```Python
-repositorio_lojas: dict = {'CNPJ1': Loja1, 'CNPJ2': Loja2}
+repositorio: dict = { 'Usuarios': {'ID_1': usuario_1, 'ID_2': usuario_2},
+					  'Lojas': {'ID_1': loja_1, 'ID_2': loja_2},
+					  'Produtos': {'ID_1': produto_1, 'ID_2': produto_2} }
 ```
-#### Produtos
 
-- Um hash map associando um `id` de uma `Loja` a um hash map dos produtos.
+- Um dicionário para os administradores e um para as lojas?
 
 ```Python
-repositorio_produtos: dict = {'CNPJ1': {'Nome1': Produto1, 'Nome2': Produto2}, 
-							  'CNPJ2': {'Nome3': Produto3, 'Nome4': Produto4}}
+repositorio_adm: dict = {'ID_1': adm_1, 'ID_2': adm_2}
+repositorio_lojas: dict = {'ID_1': loja_1, 'ID_2': loja_2}
+```
+
+Seria interessante que os objetos do tipo `Loja` tenham noção de quais são os usuários e produtos associados a eles.
+
+```Python
+repositorio_usuarios: dict = {'ID_1': usuario_1, 'ID_2': usuario_2}
+repositorio_lojas: dict = {'ID_1': loja_1, 'ID_2': loja_2}
+repositorio_adm: dict = {'ID_1': adm_1, 'ID_2': adm_2}
 ```
 
 ### Banco de Dados

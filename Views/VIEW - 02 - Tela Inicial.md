@@ -1,5 +1,5 @@
 
-Consultar [[Views/Fluxo.canvas|Fluxo]] para entender o que terá em cada tela.
+Consultar [[Fluxo.canvas|Fluxo]] para entender o que terá em cada tela.
 
 ## Uso do Template Method
 
