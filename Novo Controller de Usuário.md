@@ -60,12 +60,11 @@ A classe `UsuarioController` utiliza uma estratégia (fornecida pela fábrica `C
 
 ```Python
 # Controller para gerenciamento de usuários
-class UsuarioController {
-	+ adicionar_usuario(tipo: String, dados: dict) -> void:
+class UsuarioController:
+	def adicionar_usuario(tipo: str, dados: dict):
 		usuario = UsuarioFactory.criar_usuario(tipo)
 		# Salvar usuário em um repositório
 		UsuarioRepository.adicionar(usuario)
-}
 ```
 
 Como a classe `UsuarioRepository` funciona não entra no escopo de agora.

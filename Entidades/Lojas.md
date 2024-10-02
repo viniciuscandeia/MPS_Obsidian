@@ -4,6 +4,21 @@
 - Endereço
 - CNPJ
 
+```plantuml
+
+@startuml
+!theme carbon-gray
+
+class Loja {
+  + nome: String
+  + endereco: String
+  + CNPJ: String
+}
+
+@enduml
+
+```
+
 ```Python
 class Loja:
 	def __init__(self, nome: str, endereco: str, cnpj: str):

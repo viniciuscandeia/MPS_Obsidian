@@ -74,3 +74,25 @@ Temos a interface `Usuario`, com os atributos:
 
 `Gerente` herda da classe `Vendedor`.
 
+```Python
+class Usuario:
+	def __init__(self, nome: str, username: str, email: str, senha: str):
+		self.nome: str = nome
+		self.username: str = username
+		self.email: str = email
+		self.senha: str = senha
+```
+
+```Python
+class Administrador(Usuario):
+	pass
+
+class Vendedor(Usuario):
+	def __init__(self, nome: str, username: str, email: str, senha: str, id_loja: int):
+		super().__init__(nome, username, email, senha)
+		self.id_loja: int = id_loja
+
+class Gerente(Vendedor):
+	pass
+```
+

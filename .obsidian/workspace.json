@@ -6,83 +6,86 @@
       {
         "id": "8d765204a78eb8f2",
         "type": "tabs",
-        "dimension": 46.98324022346368,
         "children": [
           {
             "id": "0dfd82277397656e",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Repositórios/Considerações.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "Fluxo.canvas",
+                "viewState": {
+                  "x": 101.25563002295198,
+                  "y": -739.8755840378114,
+                  "zoom": -0.30863332077395955
+                }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "c4a247feeb0e2522",
+            "id": "a91d1c9c5bf6a3e3",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Etapas.canvas",
                 "viewState": {
-                  "x": -610,
-                  "y": 439.99999999999994,
-                  "zoom": -1.5471071369781506
+                  "x": -1823.4374332881964,
+                  "y": 416.4421555689967,
+                  "zoom": -0.21377385662672177
                 }
-              }
+              },
+              "pinned": true
             }
           },
           {
             "id": "70d84e11c6e79e58",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Fluxo.canvas",
-                "viewState": {
-                  "x": -131,
-                  "y": -241.5,
-                  "zoom": -1.3086332810375312
-                }
+                "file": "Repositórios/Repositório de Usuário.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a446cd06685b4b72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Controllers/Controller de Gerente.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
-        "id": "1527b4932553b5af",
+        "id": "0d28e0efe96eee60",
         "type": "tabs",
-        "dimension": 53.01675977653632,
         "children": [
           {
-            "id": "fc0b68b533d5eb08",
+            "id": "8008b2577fcd0f7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entidades/Produtos.md",
+                "file": "To-Do.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6a757d884c7f1fa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entidades/Lojas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf3bafedcedfc1e4",
+            "id": "3e668e4ddb08b322",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -93,8 +96,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Repositórios/Considerações.md",
+                "file": "To-Do.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Repositórios/Considerações.md",
+                "file": "To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Repositórios/Considerações.md"
+                "file": "To-Do.md"
               }
             }
           }
@@ -222,18 +224,28 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "0dfd82277397656e",
+  "active": "8008b2577fcd0f7c",
   "lastOpenFiles": [
-    "Entidades/Lojas.md",
-    "Repositórios/Considerações.md",
-    "Entidades/Produtos.md",
-    "Repositórios/Considerações 1.md",
-    "Etapas.canvas",
+    "Controllers/Controller de Gerente.md",
+    "Controllers/Controller de Vendedor.md",
+    "Controllers/Controller de Administrador.md",
     "Repositórios/Repositório de Usuário.md",
+    "Repositórios/Considerações.md",
+    "Novo Controller de Usuário.md",
+    "Etapas.canvas",
+    "To-Do.md",
     "Fluxo.canvas",
     "Entidades/Usuários.md",
+    "Repositórios/Repositório de Usuário-2024-10-02-01-16-45.png",
+    "Entidades/Lojas.md",
+    "Facade/Facade.md",
+    "Facade",
+    "Controllers",
+    "Laboratórios.md",
+    "Entidades/Produtos.md",
+    "Repositórios/Considerações 1.md",
+    "Sem título 1",
     "Views/VIEW - Adicionar Usuário.md",
-    "Novo Controller de Usuário.md",
     "Entidades",
     "Views/Fluxo.md",
     "Views/VIEW - 01 - Tela de Login.md",

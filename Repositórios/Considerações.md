@@ -15,7 +15,7 @@ O software deve permitir duas formas para armazenar os objetos:
 
 #### Usuários
 
-- Um hash map para administradores e outro para os outros?
+- Um hash map para administradores e outro para os demais usuários
 
 ```Python
 repositorio_adm: dict = {'Username1': adm_1, 'Username2': adm_2}

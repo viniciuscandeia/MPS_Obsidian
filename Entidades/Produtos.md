@@ -11,3 +11,18 @@ class Produto:
 		self.preco: float = preco
 		self.quantidade: int = quantidade
 ```
+
+```plantuml
+
+@startuml
+!theme carbon-gray
+
+class Produto {
+  + nome: String
+  + preco: float
+  + quantidade: int
+}
+
+@enduml
+
+```
