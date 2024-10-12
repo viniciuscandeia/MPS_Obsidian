@@ -16,9 +16,9 @@
               "state": {
                 "file": "Fluxo.canvas",
                 "viewState": {
-                  "x": 101.25563002295198,
-                  "y": -739.8755840378114,
-                  "zoom": -0.30863332077395955
+                  "x": 198.3674038749128,
+                  "y": -81.84693600799537,
+                  "zoom": -0.5719506303043949
                 }
               },
               "pinned": true
@@ -33,64 +33,33 @@
               "state": {
                 "file": "Etapas.canvas",
                 "viewState": {
-                  "x": -1823.4374332881964,
-                  "y": 416.4421555689967,
-                  "zoom": -0.21377385662672177
+                  "x": -530.5764783377031,
+                  "y": -82.99676211008438,
+                  "zoom": -1.2137738168902934
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "70d84e11c6e79e58",
+            "id": "8e24b2851830491d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Repositórios/Repositório de Usuário.md",
+                "file": "Views/VIEW - 03 - Tela de Gerenciar Usuários.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a446cd06685b4b72",
+            "id": "ef4e8c60d4c45aa1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Controllers/Controller de Gerente.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "0d28e0efe96eee60",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8008b2577fcd0f7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To-Do.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e668e4ddb08b322",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Repositórios/Considerações.md",
+                "file": "Views/VIEW - 03 - Tela de Gerenciar Usuários.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +115,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "278c8278fd12f0a8",
@@ -162,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do.md",
+                "file": "Fluxo.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do.md",
+                "file": "Fluxo.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do.md"
+                "file": "Fluxo.canvas"
               }
             }
           }
@@ -224,39 +194,47 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "8008b2577fcd0f7c",
+  "active": "0dfd82277397656e",
   "lastOpenFiles": [
-    "Controllers/Controller de Gerente.md",
-    "Controllers/Controller de Vendedor.md",
-    "Controllers/Controller de Administrador.md",
-    "Repositórios/Repositório de Usuário.md",
-    "Repositórios/Considerações.md",
-    "Novo Controller de Usuário.md",
-    "Etapas.canvas",
-    "To-Do.md",
+    "Views/VIEW - 03 - Tela de Gerenciar Usuários.md",
+    "Views/VIEW - Adicionar Usuário.md",
     "Fluxo.canvas",
+    "Views/VIEW - 01 - Tela de Login.md",
+    "Repositórios/Estudos/6 - Strategy.md",
+    "Repositórios/Estudos/5 - Abstract Factory.md",
+    "Repositórios/Estudos/4 - Factory Method.md",
+    "Repositórios/Considerações.md",
+    "Repositórios/Repositório de Usuário.md",
+    "Repositórios/Estudos/7 - Implementando DB.md",
+    "Repositórios/Estudos/3 - Singleton com SRP.md",
+    "Repositórios/Estudos/1 - Métodos de Python.md",
+    "Repositórios/Estudos/2 - Singleton em Python.md",
+    "Repositórios/Estudos/8 - Objetos para Entidades.md",
+    "Etapas.canvas",
+    "Repositórios/Estudos",
+    "Padrões de Projeto/Memento.md",
+    "Padrões de Projeto/Bridge.md",
     "Entidades/Usuários.md",
-    "Repositórios/Repositório de Usuário-2024-10-02-01-16-45.png",
+    "Entidades/Produtos.md",
     "Entidades/Lojas.md",
     "Facade/Facade.md",
+    "Novo Controller de Usuário.md",
+    "Laboratórios.md",
+    "Controller.md",
+    "Sem título.md",
+    "Padrões",
+    "Padrões de Projeto/Command.md",
+    "Discreta.md",
+    "Padrões de Projeto",
+    "Diagrama de Classes-2024-10-02-22-43-25.png",
+    "Repositórios/Repositório de Usuário-2024-10-02-01-16-45.png",
     "Facade",
     "Controllers",
-    "Laboratórios.md",
-    "Entidades/Produtos.md",
-    "Repositórios/Considerações 1.md",
     "Sem título 1",
-    "Views/VIEW - Adicionar Usuário.md",
     "Entidades",
-    "Views/Fluxo.md",
-    "Views/VIEW - 01 - Tela de Login.md",
-    "Views/VIEW - 02 - Tela Inicial.md",
     "Views/Tela de Gerenciar Usuários.canvas",
-    "Views/VIEW - 03 - Tela de Gerenciar Usuários.md",
     "Repositórios",
-    "Novo Controller de Usuário - Antes.md",
-    "Controller.md",
     "Views",
-    "Usuários.pdf",
-    "Welcome.md"
+    "Usuários.pdf"
   ]
 }
