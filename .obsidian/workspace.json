@@ -16,12 +16,24 @@
               "state": {
                 "file": "Fluxo.canvas",
                 "viewState": {
-                  "x": 198.3674038749128,
-                  "y": -81.84693600799537,
+                  "x": -287.3015603077663,
+                  "y": -37.403847309900556,
                   "zoom": -0.5719506303043949
                 }
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "a5b793b4181660b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Repositórios/Estudos/6 - Strategy.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -115,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "278c8278fd12f0a8",
@@ -196,20 +207,21 @@
   },
   "active": "0dfd82277397656e",
   "lastOpenFiles": [
+    "Repositórios/Estudos/6 - Strategy.md",
+    "Repositórios/Estudos/4 - Factory Method.md",
+    "Repositórios/Estudos/3 - Singleton com SRP.md",
+    "Repositórios/Estudos/2 - Singleton em Python.md",
+    "Repositórios/Estudos/1 - Métodos de Python.md",
+    "Repositórios/Estudos/5 - Abstract Factory.md",
+    "Repositórios/Estudos/7 - Implementando DB.md",
+    "Repositórios/Estudos/8 - Objetos para Entidades.md",
+    "Treinos.md",
+    "Fluxo.canvas",
     "Views/VIEW - 03 - Tela de Gerenciar Usuários.md",
     "Views/VIEW - Adicionar Usuário.md",
-    "Fluxo.canvas",
     "Views/VIEW - 01 - Tela de Login.md",
-    "Repositórios/Estudos/6 - Strategy.md",
-    "Repositórios/Estudos/5 - Abstract Factory.md",
-    "Repositórios/Estudos/4 - Factory Method.md",
     "Repositórios/Considerações.md",
     "Repositórios/Repositório de Usuário.md",
-    "Repositórios/Estudos/7 - Implementando DB.md",
-    "Repositórios/Estudos/3 - Singleton com SRP.md",
-    "Repositórios/Estudos/1 - Métodos de Python.md",
-    "Repositórios/Estudos/2 - Singleton em Python.md",
-    "Repositórios/Estudos/8 - Objetos para Entidades.md",
     "Etapas.canvas",
     "Repositórios/Estudos",
     "Padrões de Projeto/Memento.md",
@@ -221,7 +233,6 @@
     "Novo Controller de Usuário.md",
     "Laboratórios.md",
     "Controller.md",
-    "Sem título.md",
     "Padrões",
     "Padrões de Projeto/Command.md",
     "Discreta.md",
